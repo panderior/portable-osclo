@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".How_to">
+    <TextView
+        android:id="@+id/howto_edit"
+        android:layout_width="match_parent"
+        android:text="Welcome to ArduioScope\n\n
+Follow these steps to use this app\n
+1. Write the url of the data server(wifi module ip address) on the text area at the bottom.\n
+N.B don't forget to use http:// at the beginning of the ip add\n
+
+2. Press the connect button to connect to the url\n
+3. After connection is successfully created press the Draw button to get the signal\n
+4. Press the Screen shot button to take snap shot of the current signal image\n
+5. The image will be stored in the phone storage with a directory name of Arduino_Scope_Pictures
+ and a file name of now and a number"
+        android:layout_height="match_parent"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
