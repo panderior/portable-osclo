@@ -13,16 +13,18 @@ transmit the reading through wifi to an Andriod app which displays the voltage r
 
 ## Project scope and limitation
 The deliverable of this project extends to producing a fully functional oscilloscope that can perform the following operations.
-    * Display the voltage-time graph of a circuit.
-    * Measure and display Voltage.
-    * Provide features like saving graph or measurement made during experiment.
-    * Allow multiple smart devices to connect to the oscilloscope and get access to it.
+
+* Display the voltage-time graph of a circuit.
+* Measure and display Voltage.
+* Provide features like saving graph or measurement made during experiment.
+* Allow multiple smart devices to connect to the oscilloscope and get access to it.
 
 Limitations of the portable oscilloscope to be built:
-    * The device is expected to operate between the frequency ranges of 1 - 10 MHz.
-    * The amount of voltage that can be read is limited(by far 100V with the input voltage regulator circuit implemented). 
-        But the current demo does not have the voltage regulator implemented, thus the voltage support is upto 5V only
-        (which is how much and Arduino Mega board can support).
+
+* The device is expected to operate between the frequency ranges of 1 - 10 MHz.
+* The amount of voltage that can be read is limited(by far 100V with the input voltage regulator circuit implemented). 
+    But the current demo does not have the voltage regulator implemented, thus the voltage support is upto 5V only
+    (which is how much and Arduino Mega board can support).
 
 
 ## Structure
